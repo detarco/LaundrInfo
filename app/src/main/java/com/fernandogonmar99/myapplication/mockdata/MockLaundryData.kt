@@ -43,7 +43,23 @@ class MockLaundryData {
                 "González Maroto",
                 652464502,
                 "Calle Toledo n7 p8",
-                mutableListOf()
+                mutableListOf(
+                    ClothesModel(
+                        "Camisa",
+                        "Seco",
+                        5.00
+                    ),
+                    ClothesModel(
+                        "Camisa",
+                        "Seco",
+                        5.00
+                    ),
+                    ClothesModel(
+                        "Pantalón",
+                        "Seco",
+                        5.00
+                    )
+                )
             )
         )
     }
