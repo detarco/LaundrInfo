@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         fileSave()
-        xmlSave()
+        //xmlSave()
     }
 
     /**
@@ -26,10 +26,13 @@ class MainActivity : AppCompatActivity() {
         val fileRepository: LocalDataSource = FileRepository(
             this, Gson()
         )
+        //Se guardan los datos de ejemplo para su comprobación
         fileRepository.saveClients(
             MockLaundryData.makeClients()
         )
         val fileClients = fileRepository.getClients()
+        //El log nos ayuda momentáneamente a ver los datos
+        // obtenidos ya que no tenemos interfaz todavía
         Log.d("dev-file-clients", "$fileClients")
     }
 
@@ -40,8 +43,13 @@ class MainActivity : AppCompatActivity() {
         val xmlRepository: LocalDataSource = XmlRepository(
             this, Gson()
         )
-        xmlRepository.saveClients(MockLaundryData.makeClients())
+        //Se guardan los datos de ejemplo para su comprobación
+        xmlRepository.saveClients(
+            MockLaundryData.makeClients()
+        )
         val xmlClients = xmlRepository.getClients()
+        //El log nos ayuda momentáneamente a ver los datos
+        // obtenidos ya que no tenemos interfaz todavía
         Log.d("dev-xml-clients", "$xmlClients")
     }
 }
