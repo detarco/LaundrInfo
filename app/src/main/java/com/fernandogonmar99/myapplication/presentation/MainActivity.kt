@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
         xmlSave()
     }
 
+    /**
+     * Función para probar el guardado de información por medio de la librería File
+     */
     private fun fileSave() {
         val fileRepository: LocalDataSource = FileRepository(
             this, Gson()
@@ -30,6 +33,9 @@ class MainActivity : AppCompatActivity() {
         Log.d("dev-file-clients", "$fileClients")
     }
 
+    /**
+     * Función para probar el guardado de información por medio de la librería SharedPreferences
+     */
     private fun xmlSave() {
         val xmlRepository: LocalDataSource = XmlRepository(
             this, Gson()
