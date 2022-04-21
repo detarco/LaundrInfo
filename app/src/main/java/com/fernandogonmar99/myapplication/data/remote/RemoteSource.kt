@@ -7,7 +7,7 @@ import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.tasks.await
 
-class RemoteSource : RemoteDataSource {
+class RemoteSource : RemoteRepository {
 
     private var db: DatabaseReference = Firebase.database.reference
 

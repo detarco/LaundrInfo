@@ -3,7 +3,7 @@ package com.fernandogonmar99.myapplication.data.remote
 import com.fernandogonmar99.myapplication.domain.ClientModel
 import com.fernandogonmar99.myapplication.domain.ClothesModel
 
-interface RemoteDataSource {
+interface RemoteRepository {
     suspend fun getClothes(): List<ClothesModel>
 
     suspend fun getClients(): List<ClientModel>
