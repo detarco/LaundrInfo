@@ -1,9 +1,9 @@
 package com.fernandogonmar99.myapplication.domain
 
 data class ClothesModel(
-    val type: String,
-    val cMode: String,
-    val cost: Double
+    val clothes_name: String,
+    val washing_type: String,
+    val charge: Double
 )
 
 data class ClientModel(
