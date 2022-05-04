@@ -18,3 +18,7 @@ Hecho distintas pruebas y sus consecuentes anotaciones y reglas
 Código de la aplicación avanzado de manera adecuada, y anotados los distintos cambios en la documentación para reflejar estos avances
 
 ### Cuarta Entrega:
+Más avances en el código y su anotación de manera efectiva.
+
+### Quinta Entrega:
+TBD (WIP)
