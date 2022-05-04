@@ -21,4 +21,4 @@ Código de la aplicación avanzado de manera adecuada, y anotados los distintos 
 Más avances en el código y su anotación de manera efectiva.
 
 ### Quinta Entrega:
-TBD (WIP)
+TBD 
