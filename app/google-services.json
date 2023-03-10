@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "236991741710",
+    "project_id": "tintoreria-fgm",
+    "storage_bucket": "tintoreria-fgm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236991741710:android:91be2cd65615599262615f",
+        "android_client_info": {
+          "package_name": "com.fernandogonmar99.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236991741710-dfdfukcslkg80ugdaakl177jagrbgq4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWCEMZePgTVjD3WUt91vZZM0EgaOgZ4_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236991741710-dfdfukcslkg80ugdaakl177jagrbgq4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
